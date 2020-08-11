@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: lightgray;
+  border: 1px solid transparent;
 }
 
 .App-logo {
@@ -28,6 +30,11 @@
   color: #61dafb;
 }
 
+.box {
+  min-width: 30px;
+  border: 1px solid black;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +42,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+.form {
+  text-align: center;
+  
+
+}
+.buttons {
+  display: flex; 
+  justify-content: center;
+}
+.image {
+  padding-top: 50px;
+  height: 300px;
+}
+
+.Logo {
+  background-image: url(./component/image91.png);
+  height: 50px;
+}
+
+.Header {
+  color: purple;
+  background-color: grey;
+  height: 40px;
+  font-size: 2em;
+  padding-bottom: 70px;
+  padding-top: 10px;
+}
+.Footer {
+  padding-top: 45px;
+  padding-bottom: 35px;
+  background-color: lightgrey;
+}
+
+.counter {
+  background-color: grey;
+  padding-bottom: 15px;
+  font-weight: bold;
 }
